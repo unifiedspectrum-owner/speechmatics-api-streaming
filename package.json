@@ -1,0 +1,37 @@
+{
+  "name": "nextjs-example",
+  "description": "NextJS app showcasing the Speechmatics JS SDK",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@opennextjs/cloudflare": "^1.6.1",
+    "@picocss/pico": "^2.1.1",
+    "@speechmatics/auth": "^0.0.1",
+    "@speechmatics/browser-audio-input": "^2.0.3",
+    "@speechmatics/browser-audio-input-react": "^2.0.3",
+    "@speechmatics/flow-client": "^0.2.2",
+    "@speechmatics/flow-client-react": "^0.2.1",
+    "@speechmatics/real-time-client-react": "^2.0.2",
+    "next": "15.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-error-boundary": "^4.1.2",
+    "zod": "^4.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "18.2.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "esbuild": "^0.25.8",
+    "rollup": "^4.45.1",
+    "rollup-plugin-dts": "^6.2.1",
+    "rollup-plugin-esbuild": "^6.2.1",
+    "typescript": "^5"
+  }
+}
